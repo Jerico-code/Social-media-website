@@ -5,12 +5,12 @@
 }
 
 body {
-  height: 100vh;
-  font-size: 1rem;
+  height: auto;
+  font-size: clamp(1rem, 2vw, 4rem);
 }
 
 header {
-  height: 10vh;
+  height: 12vh;
   background-color: rgb(250, 205, 205);
   display: flex;
   justify-content: center;
@@ -20,11 +20,6 @@ header {
 main {
   height: auto;
   background-color: rgb(248, 159, 159);
-}
-
-footer {
-  height: 15vh;
-  background-color: rgb(254, 192, 239);
 }
 
 section {
@@ -38,4 +33,19 @@ section {
 h1,
 h2 {
   text-align: center;
+}
+
+footer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 28vh;
+  background-color: rgb(254, 192, 239);
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
 }
