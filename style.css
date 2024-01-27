@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-size: 1rem;
+}
+
+header {
+  height: 10vh;
+  background-color: rgb(250, 205, 205);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: auto;
+  background-color: rgb(248, 159, 159);
+}
+
+footer {
+  height: 15vh;
+  background-color: rgb(254, 192, 239);
+}
+
+section {
+  padding-top: 45vh;
+  padding-bottom: 45vh;
+  padding-left: 25%;
+  padding-right: 25%;
+  width: 100%;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
