@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: auto;
+  font-size: clamp(1rem, 2vw, 4rem);
+}
+
+header {
+  height: 12vh;
+  background-color: rgb(250, 205, 205);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: auto;
+  background-color: rgb(248, 159, 159);
+}
+
+section {
+  padding-top: 45vh;
+  padding-bottom: 45vh;
+  padding-left: 25%;
+  padding-right: 25%;
+  width: 100%;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+footer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 28vh;
+  background-color: rgb(255, 0, 191);
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
